@@ -1,0 +1,14 @@
+{
+    "Función con return y print": {
+        "scope": "python",
+        "prefix": "mifuncion",
+        "body": [
+            "def ${1:nombre_funcion}(${2:parametro}):",
+            "    ${3:resultado = parametro}",
+            "    return f\"El resultado es: {${3:resultado}}\"",
+            "",
+            "print(${1:nombre_funcion}(${4:valor}))"
+        ],
+        "description": "Crea una función con return y print"
+    }
+}
